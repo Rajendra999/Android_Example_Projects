@@ -19,7 +19,6 @@
 		android:theme="@style/AppTheme" >
 		<activity
 			android:name="com.parse.integratingfacebooktutorial.MyLoginActivity"
-			android:label="@string/app_name"
 			android:launchMode="singleTop" >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
@@ -29,11 +28,9 @@
 		</activity>
 		<activity
 			android:name="com.parse.integratingfacebooktutorial.UserDetailsActivity"
-			android:exported="true"
-			android:label="@string/app_name" />
+			android:exported="true" />
 		<activity
-			android:name="com.facebook.LoginActivity"
-			android:label="@string/app_name" />
+			android:name="com.facebook.LoginActivity" />
 
 		<meta-data
 			android:name="com.facebook.sdk.ApplicationId"
